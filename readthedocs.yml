@@ -1,10 +1,14 @@
 build:
-  image: latest
+   image: latest
 
-formats: []
-
+formats:
+   - epub
+   - html
+   
 python:
+   setup_py_install: false
    pip_install: true
    extra_requirements:
      - sphinx-tabs
 
+requirements_file: requirements.txt

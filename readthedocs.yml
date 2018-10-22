@@ -1,0 +1,10 @@
+build:
+  image: latest
+
+formats: []
+
+python:
+   pip_install: true
+   extra_requirements:
+     - sphinx-tabs
+

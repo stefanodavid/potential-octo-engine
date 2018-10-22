@@ -3,7 +3,7 @@ build:
 
 formats:
    - epub
-   - html
+   - htmlzip
    
 python:
    setup_py_install: false

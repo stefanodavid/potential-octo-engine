@@ -1,0 +1,1 @@
+.. note:: also `include::` works!
